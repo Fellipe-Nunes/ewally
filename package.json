@@ -1,0 +1,21 @@
+{
+  "name": "teste-ewally",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Fellipe Nunes",
+  "license": "MIT",
+  "scripts": {
+    "start:dev": "nodemon src/index.js",
+    "start": "node src/index.js",
+    "test": "jest --coverage"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "moment": "^2.24.0",
+    "nodemon": "^2.0.2"
+  },
+  "devDependencies": {
+    "jest": "^25.1.0"
+  }
+}
